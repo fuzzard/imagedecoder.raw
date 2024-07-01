@@ -13,6 +13,7 @@ externalproject_add(libraw
                       --disable-shared
                       --disable-jasper
                       --disable-openmp
+                      --disable-zlib
                       --enable-jpeg
                       --with-pic
                       --prefix=${OUTPUT_DIR}
